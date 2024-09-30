@@ -26,3 +26,6 @@ elif kategori == "ordinarie" and pris_enkelbiljetter_ordinarie > månadsbiljett_
     print("Köp månadsbiljett för",månadsbiljett_ordinarie, "kr")
 else:
     print("Testa igen")
+
+#Testdata: Indata:"ordinarie", "4" ger utdata: "Köp enkelbiljetter för 168 kr"
+#Testdata: Indata: "skolungdom", 565 ger utdata: "Köp månadsbiljett för 650 kr"
